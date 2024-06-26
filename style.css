@@ -1,0 +1,43 @@
+body {
+    width: 64%;
+    margin: 50px auto;
+}
+.form-step {
+    background: #858080;
+    text-align: center;
+    /* padding: 20px; */
+    margin-bottom: 20px;
+}
+.form-step span {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    padding: 20px;
+    display: inline-block;
+}
+form legend {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
+form label {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: fantasy;
+}
+form input {
+    width: 95%;
+    height: 50px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.form-step span.first-step {
+    background: #005f96c4;
+    color: #fff;
+}
+form input.button {
+    width: unset;
+    margin: 0;
+    padding: 0;
+}

@@ -83,3 +83,11 @@ form input.button {
     margin: 0;
     padding: 0;
 }
+.number-box {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+    display: inline-block;
+}

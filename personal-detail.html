@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account</title>
+    <title>Personal Details</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,15 +15,26 @@
         </div>
         <form>
             <fieldset>
-                <legend>Account</legend>
+                <legend>Personal Details</legend>
                 <label for="email">Email Address:</label><br>
                     <input type="email" placeholder="Enter Email" id="email"><br>
                 <label for="password">Password:</label><br>
                     <input type="password" placeholder="Enter Password" id="password"><br>
                 <label for="confirm-password">Confirm Password</label><br>
-                    <input type="password" placeholder="Confirm Password" id="confirm-password">
+                <div id="numberFields">
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                    <input type="number" class="number-box" maxlength="1" />
+                </div>        
                     <a href="#"><img src="images/back.png" alt="Back" width="150px" height="50px"></a>
-                    <a href="#"><img src="images/next.png" alt="Next" width="150px" height="50px"></a>
+                    <a href="account.html"><img src="images/next.png" alt="Next" width="150px" height="50px"></a>
             </fieldset>
         </form>
     </div>

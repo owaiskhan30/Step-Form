@@ -90,4 +90,8 @@ form input.button {
     text-align: center;
     margin: 2px;
     display: inline-block;
+    padding: 5px;
+}
+div#numberFields {
+    margin-bottom: 30px;
 }

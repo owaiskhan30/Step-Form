@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="form-step">
-        <span class="first-step" >Step 1: Account</span>
-        <span class="second-step">Step 2: Personal Details</span>
-        <span class="third-step">Step 3: Your Review</span>
+    <div class="mainBox">
+        <div class="form-step">
+            <span class="first-step" >Step 1: Account</span>
+            <span class="second-step">Step 2: Personal Details</span>
+            <span class="third-step">Step 3: Your Review</span>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Account</legend>
+                <label for="email">Email Address:</label><br>
+                    <input type="email" placeholder="Enter Email" id="email"><br>
+                <label for="password">Password:</label><br>
+                    <input type="password" placeholder="Enter Password" id="password"><br>
+                <label for="confirm-password">Confirm Password</label><br>
+                    <input type="password" placeholder="Confirm Password" id="confirm-password">
+                    <a href="#"><img src="images/back.png" alt="Back" width="150px" height="50px"></a>
+                    <a href="#"><img src="images/next.png" alt="Next" width="150px" height="50px"></a>
+            </fieldset>
+        </form>
     </div>
-    <form>
-        <fieldset>
-            <legend>Account</legend>
-            <label for="email">Email Address:</label><br>
-                <input type="email" placeholder="Enter Email" id="email"><br>
-            <label for="password">Password:</label><br>
-                <input type="password" placeholder="Enter Password" id="password"><br>
-            <label for="confirm-password">Confirm Password</label><br>
-                <input type="password" placeholder="Confirm Password" id="confirm-password">
-                <a href="#"><img src="images/back.png" alt="Back" width="150px" height="50px"></a>
-                <a href="#"><img src="images/next.png" alt="Next" width="150px" height="50px"></a>
-        </fieldset>
-    </form>
 </body>
 </html>

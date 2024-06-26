@@ -122,3 +122,10 @@ div#numberFields {
     height: 100%;
     padding: 0;
 }
+.review-tab form input.button {
+    width: 150px;
+    height: 50px;
+}
+.review-tab form input.radio-input {
+    margin: 15px 0;
+}

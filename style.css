@@ -74,7 +74,7 @@ form input {
     margin: 20px 0;
     padding: 0 20px;
 }
-.form-step span.first-step, .form-step span.second-step {
+.form-step span.first-step, .form-step span.second-step, .form-step span.third-step  {
     background: #005f96c4;
     color: #fff;
 }

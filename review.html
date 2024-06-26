@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainBox">
+        <div class="form-step">
+            <span class="first-step done" >Step 1: Account</span>
+            <span class="second-step done">Step 2: Personal Details</span>
+            <span class="third-step">Step 3: Your Review</span>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Your Review:</legend>
+                <label for="select">How did you hear about us?:</label>
+                    <select id="select">
+                        <option value="select your option">select your option</option>
+                        <option value="option 1">Option 1</option>
+                        <option value="option 2">Option 2</option>
+                        <option value="option 3">Option 3</option>
+                        <option value="option 4">Option 4</option>
+                    </select><br>
+                <label>Would You Visit Again?:</label><br>
+                  <input type="radio" id="Yes" value="Yes">
+                  <label for="Yes">Yes</label><br>
+                  <input type="radio" id="No" value="No">
+                  <label for="No">No</label><br>
+                  <input type="radio" id="May Be" value="May Be">
+                  <label for="May Be">JavaScript</label><br>
+                <label for="confirm-password">Comment:</label><br>
+                <textarea name="Comment" id="Comment" rows="5">Enter Your Comment Here...</textarea>
+                <label for="documnet">Documents:</label><br>
+                <input type="file" name="file" id="documnet"><br>
+                <input type="checkbox" id="sign" name="sign" value="Bike">
+                <label for="sign">Sign Me up For Email Updates</label><br>       
+                    <a href="personal-detail.html"><img src="images/back.png" alt="Back" width="150px" height="50px"></a>
+                    <input type="image" src="images/submit.png" width="150px" height="50px" class="button">  
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

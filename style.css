@@ -95,6 +95,30 @@ form input.button {
 div#numberFields {
     margin-bottom: 30px;
 }
-.form-step span.first-step.done {
+.form-step span.first-step.done, .form-step span.second-step.done {
     background: #8BC34A;
+}
+.review-tab select#select {
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+}
+.review-tab form input {
+    width: 20px;
+    height: 20px;
+}
+.review-tab .radio-label label, .review-tab .check-label label {
+    font-size: 20px;
+    line-height: 30px;
+}
+.review-tab textarea {
+    width: 99%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.review-tab input#documnet {
+    width: 100%;
+    height: 100%;
+    padding: 0;
 }

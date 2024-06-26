@@ -107,7 +107,7 @@ div#numberFields {
     width: 20px;
     height: 20px;
 }
-.review-tab .radio-label label, .review-tab .check-label label {
+.review-tab label.radio-label, .review-tab label.check-label {
     font-size: 20px;
     line-height: 30px;
 }

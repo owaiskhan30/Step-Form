@@ -1,6 +1,44 @@
 body {
-    width: 64%;
+    width: 100%;
     margin: 50px auto;
+}
+.form-head {
+    text-align: center;
+}
+.form-head h1 {
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: fantasy;
+    font-weight: 500;
+}
+.form-head p {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: math;
+    font-weight: 400;
+}
+.form-head h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-family: fantasy;
+    font-weight: 500;
+}
+.form-head h3 {
+    margin: 0;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: math;
+}
+.form-head h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: math;
+}
+.form-head img {
+    width: 150px;
 }
 .form-step {
     background: #858080;
